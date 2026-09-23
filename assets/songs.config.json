@@ -112,17 +112,6 @@
       "pagePath": "./barabere.html"
     },
     {
-      "id": "chugun",
-      "title": "Chugun",
-      "audioPath": "./Музика/pafosnaya_muzyka_pod_kotoruyu_udobno_ebat_chugun_SkySound_cc.mp3",
-      "beatmapPath": "./БІти/pafosnaya_muzyka_pod_kotoruyu_udobno_ebat_chugun_SkySound_cc.json",
-      "durationSec": 214.05,
-      "bpm": 95.7,
-      "numBeats": 61,
-      "difficulty": "Easy",
-      "pagePath": "./chugun.html"
-    },
-    {
       "id": "smaragd",
       "title": "Смарагдове небо",
       "audioPath": "./Музика/smaragd.mp3",
