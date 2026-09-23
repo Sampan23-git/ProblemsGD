@@ -1,0 +1,148 @@
+{
+  "generatedAt": "2026-09-20T00:00:00Z",
+  "songs": [
+    {
+      "id": "akucum-feat-hornja-come-back-skysound-cc",
+      "title": "Сome back",
+      "audioPath": "./Музика/Akucum_feat._hornja_-_come_back_(SkySound.cc).mp3",
+      "beatmapPath": "./БІти/Akucum_feat__hornja_-_come_back__SkySound_cc_.json",
+      "durationSec": 132.76,
+      "bpm": 83.4,
+      "numBeats": 63,
+      "difficulty": "Easy",
+      "pagePath": "./comeback.html"
+    },
+    {
+      "id": "ez4ence",
+      "title": "ez4ence.mp3",
+      "audioPath": "./Музика/ez4ence.mp3",
+      "beatmapPath": "./БІти/ez4ence.json",
+      "durationSec": 153.98,
+      "bpm": 117.5,
+      "numBeats": 73,
+      "difficulty": "Normal",
+      "pagePath": "./ez4ence.html"
+    },
+    {
+      "id": "jerk-it-out",
+      "title": "Jerk It Out",
+      "audioPath": "./Музика/Jerk It Out .mp3",
+      "beatmapPath": "./БІти/Jerk_It_Out_.json",
+      "durationSec": 198.52,
+      "bpm": 136.0,
+      "numBeats": 73,
+      "difficulty": "Normal",
+      "pagePath": "./JerkItOut.html"
+    },
+    {
+      "id": "kulbabi",
+      "title": "Кульбаби",
+      "audioPath": "./Музика/kulbabi.mp3",
+      "beatmapPath": "./БІти/kulbabi.json",
+      "durationSec": 163.0,
+      "bpm": 99.4,
+      "numBeats": 269,
+      "difficulty": "Easy",
+      "pagePath": "./kulbabi.html"
+    },
+    {
+      "id": "rip-city",
+      "title": "Lil Texas - Rip City",
+      "audioPath": "./Музика/Lil Texas - Rip City.mp3",
+      "beatmapPath": "./БІти/Lil_Texas_-_Rip_City.json",
+      "durationSec": 161.36,
+      "bpm": 92.3,
+      "numBeats": 60,
+      "difficulty": "Easy",
+      "pagePath": "./ripcity.html"
+    },
+    {
+      "id": "starships",
+      "title": "Lil Texas - Starships",
+      "audioPath": "./Музика/Lil Texas - Starships.mp3",
+      "beatmapPath": "./БІти/Lil_Texas_-_Starships.json",
+      "durationSec": 148.25,
+      "bpm": 172.3,
+      "numBeats": 60,
+      "difficulty": "Hard",
+      "pagePath": "./starships.html"
+    },
+    {
+      "id": "spongebob",
+      "title": "Lil Texas, Pinotello - Spongebob",
+      "audioPath": "./Музика/Lil Texas, Pinotello - Spongebob.mp3",
+      "beatmapPath": "./БІти/Lil_Texas__Pinotello_-_Spongebob.json",
+      "durationSec": 125.91,
+      "bpm": 99.4,
+      "numBeats": 52,
+      "difficulty": "Easy",
+      "pagePath": "./barabere.html"
+    },
+    {
+      "id": "hear-this",
+      "title": "Lil Texas, Refox - Hear This",
+      "audioPath": "./Музика/Lil Texas, Refox - Hear This.mp3",
+      "beatmapPath": "./БІти/Lil_Texas__Refox_-_Hear_This.json",
+      "durationSec": 158.27,
+      "bpm": 92.3,
+      "numBeats": 52,
+      "difficulty": "Easy",
+      "pagePath": "./hearthis.html"
+    },
+    {
+      "id": "linkin-park",
+      "title": "linkin-park",
+      "audioPath": "./Музика/linkin-park.mp3",
+      "beatmapPath": "./БІти/linkin-park.json",
+      "durationSec": 183.6,
+      "bpm": 123.0,
+      "numBeats": 72,
+      "difficulty": "Normal",
+      "pagePath": "./linkin-park.html"
+    },
+    {
+      "id": "bara-bara-bere-bere",
+      "title": "Michel Telo - Bara Bara Bere Bere",
+      "audioPath": "./Музика/Michel Telo - Bara Bara Bere Bere.mp3",
+      "beatmapPath": "./БІти/Michel_Telo_-_Bara_Bara_Bere_Bere.json",
+      "durationSec": 221.91,
+      "bpm": 129.2,
+      "numBeats": 72,
+      "difficulty": "Normal",
+      "pagePath": "./barabere.html"
+    },
+    {
+      "id": "chugun",
+      "title": "Chugun",
+      "audioPath": "./Музика/pafosnaya_muzyka_pod_kotoruyu_udobno_ebat_chugun_SkySound_cc.mp3",
+      "beatmapPath": "./БІти/pafosnaya_muzyka_pod_kotoruyu_udobno_ebat_chugun_SkySound_cc.json",
+      "durationSec": 214.05,
+      "bpm": 95.7,
+      "numBeats": 61,
+      "difficulty": "Easy",
+      "pagePath": "./chugun.html"
+    },
+    {
+      "id": "smaragd",
+      "title": "Смарагдове небо",
+      "audioPath": "./Музика/smaragd.mp3",
+      "beatmapPath": "./БІти/smaragd.json",
+      "durationSec": 186.83,
+      "bpm": 117.5,
+      "numBeats": 60,
+      "difficulty": "Normal",
+      "pagePath": "./Smaragd.html"
+    },
+    {
+      "id": "beta-karotin",
+      "title": "Бета-Каротин",
+      "audioPath": "./Музика/Бета-Каротин.mp3",
+      "beatmapPath": "./БІти/╨С╨╡╤В╨░-╨Ъ╨░╤А╨╛╤В╨╕╨╜.json",
+      "durationSec": 201.19,
+      "bpm": 123.0,
+      "numBeats": 104,
+      "difficulty": "Normal",
+      "pagePath": "./beta-carotin.html"
+    }
+  ]
+}
