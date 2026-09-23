@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="uk">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dance to the Rhythm</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="game.css">
+        <style>
+            .end-modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.6); align-items: center; justify-content: center; z-index: 1000; }
+            .end-modal.visible { display: flex; }
+            .end-modal-content { background: #340154; padding: 20px; border-radius: 10px; text-align: center; width: 320px; box-shadow: 0 10px 30px rgba(0,0,0,0.35); }
+            .end-modal-content h2 { margin: 0 0 8px; }
+            .end-modal-content p { margin: 0 0 12px; }
+            .end-modal-actions button { margin: 6px; padding: 8px 14px; border-radius: 6px; border: none; cursor: pointer; }
+            .end-modal-actions .primary { background: #4caf50; color: white; }
+            .end-modal-actions .secondary { background: #e0e0e0; }
+        </style>
+    </head>
+    <body>
+        <button class="menu-button" id="mainMenuBtn" type="button">На головне меню</button>
+
+        <div class="game">
+            <h1>Dance to the Rhythm</h1>
+            <p class="subtitle">Натискай стрілки в потрібний момент</p>
+            <div class="screen">
+                <div class="background"></div>
+                <div class="game-info">
+                    <span>
+                        COMBO:
+                        <span id="combo">0</span>
+                    </span>
+                    <span>
+                        SCORE:
+                        <span id="score">000000</span>
+                    </span>
+                </div>
+                <div class="lanes">
+                    <div class="lane"></div>
+                    <div class="lane"></div>
+                    <div class="lane"></div>
+                    <div class="lane"></div>
+                </div>
+                <div class="hit-line"></div>
+                <div class="lane-controls">
+                    <button class="lane-button" data-lane="0">←</button>
+                    <button class="lane-button" data-lane="1">↓</button>
+                    <button class="lane-button" data-lane="2">↑</button>
+                    <button class="lane-button" data-lane="3">→</button>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="arrow-button">←</button>
+                <button class="arrow-button">↓</button>
+                <button class="arrow-button">↑</button>
+                <button class="arrow-button">→</button>
+            </div>
+                <div class="stats">
+                <span>
+                    Точність:
+                    <span id="accuracy">100%</span>
+                </span>
+                <span>
+                    Помилки:
+                    <span id="misses">0</span>
+                </span>
+                <span>
+                    Час:
+                    <span id="timeLeft">03:00</span>
+                </span>
+            </div>
+
+            <div id="message" class="message"></div>
+
+            <div class="control-buttons">
+                <button class="start-button" id="startButton">Почати гру</button>
+                <button class="stop-button" id="stopButton" disabled>Стоп</button>
+            </div>
+
+            <div class="volume-panel" aria-label="Гучність музики">
+                <label for="volumeControl">Гучність</label>
+                <input id="volumeControl" type="range" min="0" max="1" step="0.05" value="0.8" />
+            </div>
+
+            <audio id="bgAudio" src="Музика/Lil Texas - Starships.mp3" preload="metadata"></audio>
+
+            <div id="endModal" class="end-modal" aria-hidden="true">
+                <div class="end-modal-content" role="dialog" aria-modal="true">
+                    <h2 id="endModalTitle">Вітаємо!</h2>
+                    <p id="endModalMsg">Раунд завершено.</p>
+                    <div class="end-modal-actions">
+                        <button id="playAgainBtn" class="primary">Грати ще раз</button>
+                        <button id="closeModalBtn" class="secondary">Закрити</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <script>
+            window.RHYTHM_GAME_CONFIG = {
+                beatmapPath: './Біти/Lil_Texas_-_Starships.json',
+                menuHref: 'index.html',
+                baseFallSpeed: 430
+            };
+        </script>
+        <script src="beatmapEngine.js"></script>
+        <script src="game-runtime.js"></script>
+    </body>
+</html> 
